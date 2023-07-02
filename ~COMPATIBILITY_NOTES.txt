@@ -1,0 +1,6 @@
+Several pages feature code that requires connection to a database. Currently all related code is commented out to prevent errors. To function correctly again it will require a setup including:
+
+- working php install (and mysql maybe?)
+- updated dbconf file (in inc folder)
+- recreated data tables with correct formatting (comments, shopping_list, food_list) - in inc folder
+- uncomment all sql references 

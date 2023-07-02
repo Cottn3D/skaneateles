@@ -1,0 +1,456 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:rgb(244, 244, 244);
+}
+
+#toptext{
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(102, 191, 255) 100%);
+	height:300px;
+	padding: 15px 0px 0px 20px;
+}
+
+#topquote{
+	margin:0;
+}
+
+nav ul{
+	width:70%;
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	/* flex-wrap: nowrap; */
+	top: 0;
+	right:50px;
+	list-style-type:none;
+}
+
+nav li{
+	/* background-color: red;
+	width:fit-content;
+	padding: 5px 20px; */
+}
+
+.active{
+	color:rgb(255, 255, 255);
+}
+
+a:link{
+	
+}
+
+a:visited{
+
+}
+
+a:hover{
+
+}
+
+a:active{
+}
+
+p{
+	font-size:1.2em;
+}
+
+h1{
+	position:relative;
+	top:calc(-140px - 4vh);
+	font-size: 4em;
+	text-align:center;
+	margin:0 auto;
+	margin-top:50px;
+	width: fit-content;
+}
+
+h2{
+	font-size: 2em;
+	text-align:center;
+}
+
+h3{
+	font-size: 1.5em;
+	text-align:center;
+}
+
+#maincontainer{
+	position:relative;
+	top:-220px;
+}
+
+#wave{
+	width:100%;
+	position:relative;
+	top:20px;
+}
+
+#contentwrapper{
+	/* margin:0 10%; */
+	/* display:flex; */
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	/* flex-wrap:wrap; */
+}
+
+
+/* ------------------------------------------------
+----------------- ABOUT SECTION -------------------
+-------------------------------------------------*/
+
+
+/* About row containers */
+#about-top, #about-bottom{
+	display: flex;
+	margin: 0 auto;
+	margin-bottom:50px;
+	width:100%;
+	justify-content: space-around;
+}
+
+/* About quadrant containers */
+.about-quads{
+	width:100%;
+	display: flex;
+	margin: 0 auto;
+}
+
+.about-quads button{
+	background-color:rgba(0, 0, 0, 0.585);
+	height:200px;
+	font-size: 2em;
+	border-radius: 20px;
+	margin:0;
+	padding:0;
+}
+
+/* Left container in row*/
+#about-top-left{
+	justify-content: right;
+	margin-right:1vw;
+}
+
+/* Top-left img */
+#about-top-left img{
+	align-self: center;
+	width:800px;
+	max-width:60%;
+}
+
+/* Right container in row*/
+#about-top-right{
+	display:block;
+	justify-content: left;
+	text-align: justify;
+	width: 100%;
+	margin-left:1vw;
+}
+
+#about-top-right h2, #about-top-right p{
+	
+	align-self: center;
+	/* width:800px; */
+	max-width:60%;
+}
+
+/* Left container in row*/
+#about-bottom-left{
+	justify-content: right;
+	margin-right:1vw;
+}
+
+/* Top-left img */
+#about-bottom-left button{
+	align-self: center;
+	width:800px;
+	max-width:60%;
+}
+
+/* Left container in row*/
+#about-bottom-right{
+	margin-left:1vw;
+	/* display:block; */
+	justify-content: left;
+	width: 100%;
+}
+
+/* Top-left img */
+#about-bottom-right button{
+	align-self: center;
+	width:800px;
+	max-width:60%;
+	margin-right:2vw;
+}
+
+
+
+
+/* ------------------------------------------------
+----------------- BOTTOM LAYOUT -------------------
+-------------------------------------------------*/
+
+.card{
+	max-width:30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card h4{
+	margin-top:50px;
+}
+
+.card img{
+	width:300px;
+	max-width:100%;
+}
+
+.card p{
+	text-align:justify;
+}
+
+#triple_horiz{
+	display:flex;
+	width:100%;
+	margin: 0 auto;
+}
+
+#triple_h2{
+	margin-top: 100px;
+}
+
+#triple_vert{
+	/* width:40%;
+	margin: 0 auto; */
+	margin-left:20%;
+	margin-right:2vw;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	padding: 0 30px;
+	margin-top: 30px;
+}
+
+
+
+/* ------------------------------------------------
+---------------- UNIQUE PER PAGE ------------------
+-------------------------------------------------*/
+
+/* Home */
+.main{
+	/* display:block; */
+	margin: 0 auto;
+	width: 60%;
+	/* margin-left:20%; */
+	/* margin-right:20%; */
+
+}
+
+.map{
+	margin:0 auto;
+	width:fit-content;
+}
+
+.map img{
+	width:90vw;
+}
+
+#double_food,
+#double_shopping{
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+}
+
+#food_list,
+#shopping_list{
+	/* width: 30%;
+	margin: 0 auto; */
+	margin-right:20%;
+	margin-left:2vw;
+}
+
+table th, tr, td{
+	border: 1px solid;
+}
+
+table{
+    margin:0 auto;
+	margin-top:30px;
+    border-collapse: collapse;
+}
+
+tbody{
+    width:1000px;
+    max-width:60%;
+}
+
+th{
+	/* text-align: left; */
+}
+
+td{
+	padding:20px;
+}
+
+#triple_vert .card{
+	width:300px;
+	max-width:100%;
+}
+
+#comment_block h3{
+	text-align: left;
+	margin-top: 60px;
+}
+
+#documentation,
+#documentation2{
+	margin:0 auto;
+	width:60%;
+	/* max-width:800px; */
+}
+
+#documentation img{
+    width:200px;
+}
+
+/* ------------------------------------------------
+-------------------- FOOTER ----------------------
+-------------------------------------------------*/
+
+
+
+
+footer{
+	/* width: 100vw; */
+	text-align: center;
+	/* position: static; */
+	bottom:0;
+}
+
+footer p{
+	font-size:.8em;
+	display:block;
+	margin: 30px auto;
+	/* margin:0;
+	padding:0; */
+	/* width: 100vw; */
+	text-align: center;
+}
+
+
+
+
+/* ------------------------------------------------
+--------------- MOBILE RESPONSIVE -----------------
+-------------------------------------------------*/
+
+
+
+@media  screen and (max-width:500px) {
+
+
+    nav ul{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        left:0;
+        width:100%;
+        padding:0;
+    }
+
+    #maincontainer{
+        /* top:-200px; */
+    }
+
+    #toptext button{
+        display:none;
+    }
+
+    #top img{
+        display:none;
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top:100px;
+    }
+    
+    #triple_horiz{
+        flex-direction: column;
+    }
+
+    #triple_horiz .card{
+        width:300px;
+        max-width:100%;
+    }
+
+    /* About row containers */
+    #about-top, #about-bottom{
+        flex-direction: column;
+    }
+
+    /* About quadrant containers */
+    .about-quads{
+        width:100%;
+        flex-direction: column;
+    }
+    
+    #about-top-right h2, #about-top-right p{
+        max-width:90%;
+        margin-left:5%;
+    }
+    
+    #about-top-right h2{
+        margin-top:50px;
+    }
+
+    #about-top-left img{
+        margin-top:-100px;
+    }
+
+    /* Top-left img */
+    #about-top-left img{
+        width:100%;
+        max-width: 100%;
+    }
+    
+    .about-quads button{
+        height:100px;
+        margin-bottom:15px;
+    }
+
+    .main{
+        width:90%;
+        margin-left:5%;
+    }
+
+    #double_shopping,
+    #double_food{
+        flex-direction: column;
+    }
+
+    #triple_vert{
+        margin:0;
+        margin: 30px 5% 0px 5%;
+        padding: 0 10px;
+    }
+
+    #shopping_list,
+    #food_list{
+        margin:0;
+        margin: 30px 5% 0px 5%;
+        padding: 0 10px;
+
+    }
+
+    #documentation,
+    #documentation2{
+        
+        margin:0;
+        margin: 30px 5% 0px 5%;
+        padding: 0 10px;
+    }
+
+}
